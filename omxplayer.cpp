@@ -156,8 +156,9 @@ bool              m_seamless_loop       = false; // NEW!!!!!!!!! SLOCUM
 // ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - 
 // ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - ~ - 
 // MY OWN GLOBAL VARIABLES - SLOCUM
+
 #include "../mpUIWindowFrame.h"
-#include "../mpDebugInclude.h"
+// #include "../mpDebugInclude.h"
 std::deque<long long> timeOffsetArray;
 double mediaTimeUSec = 0.0;
 long long mediaTimeOffsetMSec = 0;

@@ -4,7 +4,7 @@
 #ifndef mpUIWindowFrame_h
 #define mpUIWindowFrame_h
 
-#include "omxplayer/guilib/Geometry.h" // CRect
+#include "guilib/Geometry.h" // CRect
 
 
 #ifndef OMX

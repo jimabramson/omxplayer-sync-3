@@ -37,7 +37,7 @@ SRC=		linux/XMemUtils.cpp \
 		OMXControl.cpp \
 		Keyboard.cpp \
 		omxplayer.cpp \
-		../mpUIWindowFrame.cpp \
+		mpUIWindowFrame.cpp \
 
 OBJS+=$(filter %.o,$(SRC:.cpp=.o))
 
@@ -92,6 +92,15 @@ dist: omxplayer.bin omxplayer.1
 #	cp omxplayer.1 $(DIST)/usr/share/man/man1
 #	cp -P ffmpeg_compiled/usr/local/lib/*.so* $(DIST)/usr/lib/omxplayer/
 #	cd $(DIST); tar -czf ../$(DIST).tgz *
+install:
+	cp -r $(DIST)/* /
+
+uninstall:
+	rm -rf /usr/bin/omxplayer
+	rm -rf /usr/bin/omxplayer.bin
+	rm -rf /usr/lib/omxplayer
+	rm -rf /usr/share/doc/omxplayer
+	rm -rf /usr/share/man/man1/omxplayer.1
 install:
 	cp -r $(DIST)/* /
 

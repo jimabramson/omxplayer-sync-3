@@ -1,7 +1,7 @@
 #ifndef __VERSION_H__
 #define __VERSION_H__
-#define VERSION_DATE "Fri, 10 Nov 2017 03:50:35 +0000"
-#define VERSION_HASH "4ef5910"
+#define VERSION_DATE "Sat, 08 Aug 2020 23:56:40 +0000"
+#define VERSION_HASH "9fa14a9"
 #define VERSION_BRANCH "master"
-#define VERSION_REPO "https://github.com/PaulSlocum/mediaplayer.git"
+#define VERSION_REPO "https://github.com/PaulSlocum/omxplayer-sync-3.git"
 #endif
