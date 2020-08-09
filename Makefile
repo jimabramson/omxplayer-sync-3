@@ -101,12 +101,3 @@ uninstall:
 	rm -rf /usr/lib/omxplayer
 	rm -rf /usr/share/doc/omxplayer
 	rm -rf /usr/share/man/man1/omxplayer.1
-install:
-	cp -r $(DIST)/* /
-
-uninstall:
-	rm -rf /usr/bin/omxplayer
-	rm -rf /usr/bin/omxplayer.bin
-	rm -rf /usr/lib/omxplayer
-	rm -rf /usr/share/doc/omxplayer
-	rm -rf /usr/share/man/man1/omxplayer.1
