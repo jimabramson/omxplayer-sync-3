@@ -88,10 +88,11 @@ dist: omxplayer.bin omxplayer.1
 	mkdir -p $(DIST)/usr/share/man/man1
 	cp omxplayer omxplayer.bin $(DIST)/usr/bin
 	cp COPYING $(DIST)/usr/share/doc/omxplayer
-#	cp README.md $(DIST)/usr/share/doc/omxplayer/README
-#	cp omxplayer.1 $(DIST)/usr/share/man/man1
-#	cp -P ffmpeg_compiled/usr/local/lib/*.so* $(DIST)/usr/lib/omxplayer/
-#	cd $(DIST); tar -czf ../$(DIST).tgz *
+	cp README.md $(DIST)/usr/share/doc/omxplayer/README
+	cp omxplayer.1 $(DIST)/usr/share/man/man1
+	cp -P ffmpeg_compiled/usr/local/lib/*.so* $(DIST)/usr/lib/omxplayer/
+	cd $(DIST); tar -czf ../$(DIST).tgz *
+
 install:
 	cp -r $(DIST)/* /
 
